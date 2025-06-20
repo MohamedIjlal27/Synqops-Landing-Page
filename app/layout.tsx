@@ -9,7 +9,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SynqOps ERP",
   description: "A modern ERP system for your business",
-    generator: 'SynqOps'
+    generator: 'SynqOps ERP',
+    icons: {
+      icon: '/assets/logo-sm.png',
+    },
 }
 
 export default function RootLayout({
