@@ -7,9 +7,9 @@ import { ThemeProvider } from "next-themes"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Next.js Community Starter",
-  description: "A modern Next.js starter with theme support",
-    generator: 'v0.dev'
+  title: "SynqOps ERP",
+  description: "A modern ERP system for your business",
+    generator: 'SynqOps'
 }
 
 export default function RootLayout({
